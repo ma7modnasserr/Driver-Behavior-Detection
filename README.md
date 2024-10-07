@@ -77,6 +77,6 @@ This project utilizes three different deep learning architectures for driver beh
 
 Select a Model: Open the web interface in your browser, select a model, and upload an image to classify the driver behavior.
 
-3. **Model on kaggle**:
+4. **Model on kaggle**:
    - This model is done on kaggle [https://www.kaggle.com/code/mahmoudabdelnasser/driver-behavior-detection] take a look.
 

@@ -2,27 +2,25 @@
 
 ## Overview
 
-The Driver Behavior Detection project is designed to classify driver behaviors based on images captured while driving. The system utilizes deep learning models, including AlexNet, VGG, and ResNet, to identify various driving activities such as safe driving, talking on the phone, texting on the phone, turning, and engaging in other activities. The models were trained to achieve high accuracy, making them reliable for real-time applications.
+This project implements a driver behavior detection system using deep learning models. The system classifies driver activities based on images captured while driving, utilizing architectures such as AlexNet, VGG, and ResNet. By analyzing visual data, the model aims to provide accurate classifications of driver behaviors, The models are trained to classify different activities based on images, including:
 
-
-
-
+- Other Activities
+- Safe Driving
+- Talking on Phone
+- Texting on Phone
+- Turning
 
 
 ## Table of Contents
 
-- [Installation](#installation)
-- [Usage](#usage)
+- [Dataset](#dataset)
 - [Models](#models)
-- [Training](#training)
-- [Streamlit Deployment](#streamlit-deployment)
-- [Contributing](#contributing)
-- [License](#license)
+- [Dependencies](#dependencies)
+- [Usage](#usage)
+    [Training](#training)
+    [Streamlit Deployment](#streamlit-deployment)
 
-# Driver Behavior Detection
 
-## Overview
-This project implements a driver behavior detection system using deep learning models. The system classifies driver activities based on images captured while driving, utilizing architectures such as AlexNet, VGG, and ResNet. By analyzing visual data, the model aims to provide accurate classifications of driver behaviors, including safe driving, talking on the phone, texting on the phone, turning, and engaging in other activities.
 
 ## Dataset
 The dataset used for this project The dataset used for this project is sourced from [https://www.kaggle.com/datasets/robinreni/revitsone-5class], consists of labeled images representing various driver behaviors. It includes a diverse set of driving scenarios, ensuring robust model training and evaluation. Specific details about the dataset, including the source and preprocessing steps, can be found in the project files.
